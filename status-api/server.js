@@ -26,7 +26,7 @@ app.get('/', (req, res) => {
 
   res.status(200).json({ 
 
-    message: 'DevSecOps Lab - Status API', 
+    message: 'DevSecOps Lab - Status API v2',
 
     hostname: os.hostname(), 
 
